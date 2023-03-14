@@ -13,4 +13,4 @@ let counter = 0;
 setInterval(()=>{
     ReactDOM.render(<SecondsCounter seconds={counter} />, document.querySelector("#app"));
     counter++
-},1000)
+},10)

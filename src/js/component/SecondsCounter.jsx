@@ -27,3 +27,19 @@ function SecondsCounter(props) {
 
 
 export default SecondsCounter;
+
+// como número
+// let unidades = props.seconds%10;
+// let decenas = Math.floor(props.seconds/10)%10;
+// let centenas = Math.floor(props.seconds/100)%10;
+// let mil = Math.floor(props.seconds/1000)%10;
+// let diez = Math.floor(props.seconds/1000)%10;
+// let cien = Math.floor(props.seconds/10000)%10;
+
+//opción de Pedro
+// const ano = Math.floor(counter / 31104000); 
+// const mes = Math.floor(counter / 2592000); 
+// const dia = Math.floor(counter / 86400); 
+// const hora = Math.floor(counter / 3600); 
+// const minutos = Math.floor((counter % 3600) / 60); 
+// const segundos = counter % 60;
