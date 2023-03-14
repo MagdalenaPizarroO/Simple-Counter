@@ -1,20 +1,32 @@
 import React from "react";
 
-function SecondsCounter() {
+function SecondsCounter(props) {
   return (
-    <div className="container-fluid ">
-      <div className="Row ">
-        <div className="col-1 ">
-          <i class="fas fa-clock"></i>
-        </div>
-        <div className="col-1">a</div>
-        <div className="col-1">b</div>
-        <div className="col-1">c</div>
-        <div className="col-1">d</div>
-        <div className="col-1">e</div>
-        <div className="col-1">f</div>
+    <div className="container-flex p-5 mx-5 align-items-center">
+    <div className="row align-items-center">
+      <div className="col reloj">
+      <i className="fas fa-clock"></i>
+      </div>
+      <div className="col reloj">
+       0
+      </div>
+      <div className="col reloj">
+        0
+      </div>
+      <div className="col reloj">
+        0
+      </div>
+      <div className="col reloj">
+        0
+      </div>
+      <div className="col reloj">
+        0
+      </div>
+      <div className="col reloj">
+        0
       </div>
     </div>
+  </div>
   );
 }
 
